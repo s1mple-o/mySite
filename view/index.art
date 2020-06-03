@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mySite</title>
+    <link rel="stylesheet" href="/css/jquery.fullPage.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav star -->
+
+    <nav class=" navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" id="nav-Brand" href="#">
+                    <img src="/img/logo.png" alt="fla.">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav " id="nav-in">
+                    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">首页 <span class="sr-only">(current)</span></a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">关于</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">技能</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#fourthPage">FAQ</a></li>
+                    <li data-menuanchor="fivethPage"><a href="#fivethPage">作品</a></li>
+                    <li data-menuanchor="sixthPage"><a href="#sixthPage">博客</a></li>
+                    <li data-menuanchor="lastPage"><a href="#lastPage">联系</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            <ul class="nav navbar-nav navbar-right" id="nav-r">
+                <li><a href="#">FaQ</a></li>
+            </ul>
+
+
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- nav end -->
+    <div id="fullpage">
+        <!-- page1 star -->
+        <div class="section page1">
+            <div class="motto">
+                <p id="p1">学<i>无</i>止境</p>
+                <p>坚持 专注</p>
+                <p>技术更迭频繁，语言层出不穷，学习永无止境。</p>
+                <span class="p1-contact"><a href="#lastPage">联系我</a></span>
+            </div>
+            <video autoplay="autoplay" muted="muted" volume="0" loop="loop" poster="./img/index1.jpg">
+    			<source type="video/webm" src="/img/index.webm">
+    		</video>
+        </div>
+        <!-- page1 end -->
+        <div class="section page2">
+            <div class="me">
+                <a href="#"><img src="/img/me .jpg"></a>
+            </div>
+
+            <h1 id="myname">My name is YeWeiTao</h1>
+            <p id="myintroduce">This is me</p>
+            <ul id="briefintroduce">
+                <li data-college="Wuhan University of Bioengineering">College : </li>
+                <li data-major="Network e ngineering">Major : </li>
+                <li data-age="1999.10"> Age : </li>
+                <li data-skill="HTML CSS JavaScript H5C3 Bootstrap Node.js php ">Skill : </li>
+            </ul>
+        </div>
+        <div class="section page3" id="container">
+
+        </div>
+
+        <div class="section page4">
+            <div class="container">
+                <h2>常见问题</h2>
+                <ul>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>1.这个是什么网站</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>2.建设网站的目的</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>3.作者是谁</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                </ul>
+                <ul>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>4.如何联系我</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>5.建站需要什么技术</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>6.什么是框架</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                </ul>
+                <ul>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>7.什么是响应式</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>8.什么是移动端适配</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>9.为什么要兼容</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                </ul>
+                <ul>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>7.什么是响应式</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>8.什么是移动端适配</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                    <li tabindex="0" outline: "none" hidefocus="true" style="    outline-color:#f26c4f;">
+                        <h3>9.为什么要兼容</h3>
+                        <div class="pg4-inner"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section page5">
+            <div class="bigbox">
+                <div class="imgbox">
+                    <img src="/img/a1.png" class="smallimg" alt="">
+                </div>
+                <div class="imgbox">
+                    <img src="/img/a2.png" class="smallimg" alt="">
+                </div>
+                <div class="imgbox">
+                    <img src="/img/a3.png" class="smallimg" alt="">
+                </div>
+                <div class="imgbox">
+                    <img src="/img/a4.png" class="smallimg" alt="">
+                </div>
+                <div class="imgbox">
+                    <img src="/img/a5.png" class="smallimg" alt="">
+                </div>
+                <div class="imgbox">
+                    <img src="/img/a6.png" class="smallimg" alt="">
+                </div>
+
+            </div>
+            <div class="bigimg">
+                <img src="" alt="" class="bigimg">
+                <div class="mask">
+                    <img src="/img/close.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="section page6">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-3 ">
+                        <div class="content-1">
+                            <h2>CSS浮动问题</h2>
+                            <p>清除浮动的5种发送</p>
+                            <div class="pg6-link"><a href="#">了解更多</a></div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="content-2">
+                            <h2>Bright Content</h2>
+                            <p>A proven CMS to support your success.</p>
+                            <div class="pg6-link"><a href="#">了解更多</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-3">
+                            <img src="/img/united-icon.png" alt="">
+                            <h2>Work Efficiently</h2>
+                            <p>Benefit from regular upgrades without disruption.</p>
+                            <div class="pg6-link"><a href="#">了解更多</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 col-md-6">
+                        <div class="content-4">
+                            <img src="/img/browser-icon.jpg" alt="">
+                            <h2>Nimble Lively</h2>
+                            <p>New websites up and running in seconds.</p>
+                            <div class="pg6-link pos-r"><a href="#">了解更多</a></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                        <div class="content-5">
+                            <h2>Bright Content</h2>
+                            <p>A proven CMS to support your success.</p>
+                            <div class="pg6-link"><a href="#">了解更多</a></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-md-3">
+                        <div class="content-6">
+                            <h2>Work Efficiently</h2>
+                            <p>Benefit from regular upgrades without disruption.</p>
+                            <div class="pg6-link"><a href="#">了解更多</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section page7">
+            <div class="">
+                <div class="container">
+                    <div class="foot row">
+                        <div class="left col-md-6 ">
+                            <div class="f-title">Contact <span></span></div>
+                            <div class="padding-l"><i>联系方式</i></div>
+                            <div class="padding-l">
+                                <svg class="icon" aria-hidden="true">
+  									<use xlink:href="#icon-tubiao215"></use>
+								</svg>
+                                <span>
+									<i>联系方式</i>
+									<em>1046514963</em>
+								</span>
+                            </div>
+                            <div class="padding-l">
+                                <svg class="icon" aria-hidden="true">
+  									<use xlink:href="#icon-wechat"></use>
+								</svg>
+                                <span>
+									<i>联系方式</i>
+									<em>XXXXXXXXXXXXX</em>
+								</span>
+                            </div>
+                            <div class="padding-l">
+                                <svg class="icon" aria-hidden="true">
+  									<use xlink:href="#icon-github"></use>
+								</svg>
+                                <span>
+									<i>联系方式</i>
+									<a href="#"><em>s1mple-o</em></a>
+									
+								</span>
+                            </div>
+                        </div>
+                        <div class="right col-xs-12 col-md-6">
+                            <div class="f-title">Massage <span></span></div>
+                            <span class="f-name"> 姓名</span>
+                            <span class="f-email"> 邮箱</span>
+                            <span class="f-text"> 内容</span>
+                            <form action="post">
+                                <input id="name" type="text">
+                                <input id="email" type="text">
+                                <input id="text" type="text">
+                                <input type="submit" value="发送">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bottom col-sm-12">
+                        <span>Copyright  © 2019  .  All Rights reserved www.yeweitao.cn</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<!-- 引入配置文件 -->
+<script src='/js/jquery.min.js'></script>
+<script src="/js/jquery.fullPage.min.js"></script>
+<script src='/js/bootstrap.js'></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+
+<script src='/js/index.js'></script>
+<script src='/js/base.js '></script>
+<script src="/js/highcharts.js"></script>
+<script src="/js/highcharts-3d.js"></script>
+<script src="/js/dark-unica.js"></script>
+<script src="/js/zoom.js"></script>
+<script src="/font/font_8es7hrgiagm/iconfont.js"></script>
+<script type="text/javascript">
+    $(function() {
+        /*
+         smallimg   // 小图
+         bigimg  //点击放大的图片
+         mask   //黑色遮罩
+         */
+        var obj = new zoom('mask', 'bigimg', 'smallimg');
+        obj.init();
+
+    })
+</script>
+
+</html>

@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{background: #f5f5f5}
+        .bigimg{width:600px;position: absolute;left: 0;top: 0; right: 0;bottom: 0;margin:auto;display: none;z-index:9999;border: 10px solid #fff;}
+        .mask{position: absolute;left: 0;top: 0; right: 0;bottom: 0;background-color: #000;opacity:0.5;filter: Alpha(opacity=50);z-index: 999999;transition:all 1s;display: none}
+        .bigbox{width:1290px;background: #fff;border:1px solid #ededed;margin:0 auto;border-radius: 10px;overflow: hidden;padding:10px;}
+        .bigbox>.imgbox{width:400px;float: left;border-radius: 5px;overflow: hidden;margin: 0 10px 10px 10px;}
+        .bigbox>.imgbox>img{width:100%;}
+        .imgbox:hover{cursor:zoom-in}
+        .mask:hover{cursor:zoom-out}
+        .bigimg:hover{cursor: move}
+        .mask>img{position: absolute;right:10px;top: 10px;width: 60px;z-index:99999;}
+        .mask>img:hover{cursor:pointer}
+/* page4 star */
+ 
+/* page4 end */

@@ -1,0 +1,10 @@
+$(function(){
+	$(window).resize(function(){
+		if($(document).width()<990){
+			$("#nav-in").css("margin-left",230);
+		}
+		else{
+			$("#nav-in").css("margin-left",430);
+		}
+	});
+})

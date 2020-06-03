@@ -1,0 +1,439 @@
+.navbar {
+  margin-bottom: 0px;
+  background-color: transparent;
+  height: 70px;
+  padding-top: 40px;
+}
+.navbar-default {
+  border-bottom: 0px;
+}
+.navbar-default .navbar-collapse {
+  border-color: #333;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #F26C4F;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #F26C4F;
+}
+.navbar-default .navbar-nav .active > a {
+  background-color: transparent ;
+  color: #F26C4F;
+}
+.navbar-default .navbar-nav .active > a:focus {
+  color: #F26C4F;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav .active > a:hover {
+  color: #F26C4F;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+  font-size: 18px;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F26C4F;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F26C4F;
+  background-color: transparent;
+}
+#nav-r {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+#nav-r > li > a {
+  width: 60px;
+  height: 30px;
+  background-color: #F26C4F;
+  padding: 0;
+  line-height: 30px;
+  text-align: center;
+}
+#nav-in {
+  margin-left: 430px;
+}
+#nav-in > li {
+  margin-left: 20px;
+}
+@media (max-width: 768px) {
+  #nav-r {
+    display: none;
+  }
+  .page7 .left {
+    display: none;
+  }
+}
+.navbar-header > a {
+  position: fixed;
+  left: 50px;
+}
+.navbar-header #nav-Brand {
+  border-radius: 50%;
+  padding: 0;
+  width: 50px;
+}
+.navbar-header #nav-Brand:focus {
+  background-color: #F26C4F;
+}
+.navbar-header #nav-Brand:hover {
+  background-color: #F26C4F;
+}
+.navbar-brand {
+  background-color: #F26C4F;
+  margin-top: -1px;
+}
+video {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  /*加滤镜*/
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+}
+video source {
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+}
+.page1 {
+  color: #fff;
+  position: relative;
+}
+.page1 .motto {
+  z-index: 999;
+  position: absolute;
+  top: 230px;
+  right: 140px;
+  font-family: '微软雅黑';
+}
+.page1 .motto p:nth-of-type(1) {
+  display: none;
+  font-size: 80px;
+}
+.page1 .motto p:nth-of-type(1) > i {
+  font-size: 100px;
+  color: #F26C4F;
+}
+.page1 .motto p:nth-of-type(2) {
+  display: none;
+  font-size: 26px;
+}
+.page1 .motto p:nth-of-type(3) {
+  display: none;
+  font-size: 15px;
+}
+.page1 .p1-contact {
+  display: none;
+  width: 150px;
+  height: 50px;
+  background-color: #F26C4F;
+  position: absolute;
+  top: 255px;
+  right: 0;
+  text-align: center;
+  line-height: 50px;
+}
+.page1 .p1-contact > a {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-decoration: none;
+}
+.page1 .p1-contact > a:hover {
+  color: #F26C4F;
+}
+.page1 .p1-contact:hover {
+  background-color: #fff;
+}
+.page2 {
+  background-color: #222;
+  width: 100% ;
+  height: 600px;
+  position: relative;
+}
+.page2 #myname {
+  opacity: 0;
+  color: #fff;
+  font-size: 10px;
+  font-family: '微软雅黑';
+  position: absolute;
+  top: 335px;
+  left: 355px;
+}
+.page2 #myintroduce {
+  display: none;
+  color: #fff;
+  font-size: 80px;
+  font-family: '微软雅黑';
+  position: absolute;
+  top: 335px;
+  left: 700px;
+}
+.page2 .me > a > img {
+  opacity: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 700px;
+}
+.page2 #briefintroduce {
+  display: none;
+  position: absolute;
+  top: 130px;
+  left: 666px;
+}
+.page2 #briefintroduce > li {
+  color: #fff;
+  font-size: 40px;
+  font-family: '微软雅黑';
+  margin-top: 25px;
+}
+.page2 #briefintroduce > li > i {
+  font-size: 20px;
+  line-height: 56px;
+}
+.page3 {
+  padding-top: 70px;
+  background-color: #1f1f1f;
+}
+.page3 #container {
+  background-color: #1f1f1f;
+}
+.page4 {
+  background-color: #222;
+  padding-top: 40px;
+}
+.page4 .container > h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 80px;
+}
+.page4 .container > ul > li {
+  display: block;
+  width: 320px;
+  background-color: #2c2c2c;
+  list-style: none;
+  float: left;
+  margin: 20px 20px 0 0;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page4 .container > ul > li > h3 {
+  font-weight: 400;
+  font-size: 19px;
+}
+.page4 .container > ul > li:hover {
+  cursor: pointer;
+}
+.page4 .container > ul > li .pg4-inner {
+  width: 100%;
+  height: 100px;
+  display: none;
+}
+.page4 .container > ul > li:focus {
+  background-color: #F26C4F;
+}
+.page4 .container > ul > li:focus > h3 {
+  font-weight: 800;
+  font-size: 21px;
+}
+.page4 .container > ul > li:focus .pg4-inner {
+  display: block;
+}
+.page4 .container > ul > li:active {
+  background-color: #F26C4F;
+}
+.page4 .container > ul > li:active .pg4-inner {
+  display: block;
+}
+.page5 {
+  background-color: #1f1f1f;
+  position: relative;
+}
+.page6 {
+  background-color: #222;
+  padding-top: 40px;
+  position: relative;
+}
+.page6 .container .row > div {
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #1f1f1f;
+}
+.page6 .container .pg6-link {
+  background-color: #F26C4F;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.page6 .container .pg6-link:hover {
+  background-color: #fff;
+}
+.page6 .container .pg6-link:hover > a {
+  color: #2e2e2e;
+}
+.page6 .container .pg6-link > a {
+  color: #fff;
+  text-decoration: none;
+}
+.page6 .container .content-4 {
+  position: relative;
+}
+.page6 .container .pos-r {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}
+.page7 {
+  background-color: #1f1f1f;
+  position: relative;
+}
+.page7 .foot {
+  margin: auto;
+}
+.page7 .foot .left {
+  float: left;
+  font-size: 24px;
+  padding-left: 20px;
+}
+.page7 .foot .left > div {
+  margin-top: 45px;
+}
+.page7 .foot .left > div > svg {
+  font-size: 40px;
+  color: #F26C4F;
+}
+.page7 .foot .left .padding-l {
+  color: #fff;
+  padding-left: 20px;
+  position: relative;
+}
+.page7 .foot .left .padding-l > span {
+  position: absolute;
+  left: 100px;
+}
+.page7 .foot .left .padding-l > span i,
+.page7 .foot .left .padding-l > span em {
+  display: block;
+  font-size: 14px;
+}
+.page7 .foot .left .f-title {
+  font-size: 20px;
+  color: #F26C4F;
+  position: relative;
+}
+.page7 .foot .left .f-title > span {
+  width: 63px;
+  height: 2px;
+  display: block;
+  background-color: #F26C4F;
+  position: absolute;
+  bottom: 2px;
+  left: 4px;
+}
+.page7 .foot .right {
+  float: right;
+  padding-left: 20px;
+  position: relative;
+}
+.page7 .foot .right .f-name {
+  top: 111px;
+  left: 55px;
+  position: absolute;
+  color: #777;
+  opacity: 0.5;
+}
+.page7 .foot .right .f-email {
+  top: 180px;
+  left: 55px;
+  position: absolute;
+  opacity: 0.5;
+  color: #777;
+}
+.page7 .foot .right .f-text {
+  top: 290px;
+  left: 55px;
+  position: absolute;
+  opacity: 0.5;
+  color: #777;
+}
+.page7 .foot .right form {
+  padding-left: 20px;
+}
+.page7 .foot .right input {
+  background-color: #363636;
+  margin-top: 35px;
+  border: 0px;
+  color: #fff;
+  display: block;
+}
+.page7 .foot .right input:focus .f-name,
+.page7 .foot .right input:focus .f-email,
+.page7 .foot .right input:focus .f-text {
+  opacity: 0;
+}
+.page7 .foot .right input:hover .f-name,
+.page7 .foot .right input:hover .f-email,
+.page7 .foot .right input:hover .f-text {
+  opacity: 0;
+}
+.page7 .foot .right input:nth-child(1) {
+  width: 444px;
+  height: 34px;
+}
+.page7 .foot .right input:nth-child(2) {
+  width: 444px;
+  height: 34px;
+}
+.page7 .foot .right input:nth-child(3) {
+  width: 444px;
+  height: 116px;
+}
+.page7 .foot .right input:nth-child(4) {
+  width: 120px;
+  height: 35px;
+  background-color: #F26C4F;
+}
+.page7 .foot .right .f-title {
+  font-size: 20px;
+  color: #F26C4F;
+  position: relative;
+  margin-top: 40px;
+}
+.page7 .foot .right .f-title > span {
+  width: 66px;
+  height: 2px;
+  display: block;
+  background-color: #F26C4F;
+  position: absolute;
+  bottom: 2px;
+  left: 8px;
+}
+.page7 .bottom {
+  width: 1200px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #363636;
+  text-align: center;
+  line-height: 100px;
+}

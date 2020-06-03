@@ -1,0 +1,546 @@
+.page1{
+	// background:url(../img/index1.jpg) no-repeat;
+	// background-size: 100%;
+}
+@font-color: #F26C4F;
+@back-color:#333;
+@font-focus:#fff;
+@backColor2:#F26C4F;
+@backColor3:#222;
+@backColor4:#1f1f1f;
+// nav star
+
+.navbar{
+	margin-bottom: 0px;
+	background-color: transparent;
+	height: 70px;
+	padding-top: 40px;
+}
+.navbar-default{
+	.navbar-collapse{
+		border-color:@back-color;
+	}
+	.navbar-toggle{
+		border-color:@font-focus;
+		&:focus{
+					background-color:@backColor2;
+
+				}
+				&:hover{
+					background-color:@backColor2;
+				}
+	}
+	border-bottom: 0px;
+	.navbar-nav{
+		.active{
+			>a{
+				background-color:transparent ;
+				color:@font-color;
+				&:focus{
+					color: @font-color;
+					background-color:transparent;
+				}
+				&:hover{
+					color: @font-color;
+					background-color:transparent;
+				}
+			}
+		}
+		>li{
+			>a{
+				font-size: 18px;
+				color:@font-focus;
+				&:hover{
+						color: @font-color;
+						background-color:transparent;
+				}
+				&:focus{
+						color:@font-color; 
+						background-color:transparent;
+				}
+			}
+		}
+	}
+}
+#nav-r{
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	>li{
+
+		>a{
+			width: 60px;
+			height: 30px;
+			background-color:@backColor2; 
+			padding:0;
+			line-height: 30px;
+			text-align: center;
+		}
+	}
+}
+#nav-in{
+	margin-left: 430px;
+	>li{
+		margin-left: 20px;
+	}
+}
+@media (max-width: 768px){
+	#nav-r{
+	display: none;
+	}	
+	.page7{
+		.left{
+			display:none;
+		}
+
+	}
+
+}
+
+.navbar-header{
+	 >a{
+	 	position: fixed;
+	 	left: 50px;
+	 }
+	 #nav-Brand{
+	 	border-radius: 50%;
+	 		padding: 0;
+	 		&:focus{
+	 		background-color: @backColor2;
+	 		}
+	 		&:hover{
+	 		background-color: @backColor2;
+	 		}
+	 		width: 50px;
+	 	}
+}
+.navbar-brand{
+	background-color: @backColor2;
+	margin-top: -1px;
+}
+
+// nav end
+// --------------------------------------------------
+// --------------------------------------------------
+// page1 star
+video{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: auto;
+	/*加滤镜*/
+	-webkit-filter: grayscale(50%);
+	filter:grayscale(50%);
+		source{
+			min-width: 100%;
+			min-height: 100%;
+			height: auto;
+			width: auto;
+		}
+}
+
+.page1{
+	color:@font-focus;
+	position: relative;
+	.motto{
+		z-index: 999;
+		position: absolute;
+		top: 230px;
+		right: 140px;
+		font-family: '微软雅黑';
+		p:nth-of-type(1) {
+			display: none;
+			font-size: 80px;
+			>i{
+				font-size: 100px;
+				color:@font-color;
+			}	
+		}
+		p:nth-of-type(2){
+			display: none;
+			font-size: 26px;
+		}
+		p:nth-of-type(3){
+			display: none;
+			font-size: 15px;
+		}
+
+	}
+	.p1-contact{
+		display: none;
+		width: 150px;
+		height: 50px;
+		background-color: @backColor2;
+		position: absolute;
+		top: 255px;
+		right: 0;
+		text-align: center;
+		line-height: 50px;
+		>a{
+			color: @font-focus;
+			width: 100%;
+			height: 100%;
+			display: block;
+			text-decoration: none;
+			&:hover{
+				color:@backColor2; 
+		    }
+		}
+		&:hover{
+			background-color:@font-focus; 
+		}
+	}
+}
+// page1 end
+// -----------------------------------------------
+// -----------------------------------------------
+// page2 star
+.page2{
+	background-color:@backColor3;
+	width:100% ;
+	height: 600px;
+	position: relative;
+	
+	#myname{
+		opacity: 0;
+		color: @font-focus;
+		font-size: 10px;
+		font-family: '微软雅黑';
+		position: absolute;
+		top: 335px;
+		left: 355px;
+	}
+	#myintroduce{
+		display: none;
+		// opacity: 0;
+		color: @font-focus;
+		font-size: 80px;
+		font-family: '微软雅黑';
+		position: absolute;
+		top: 335px;
+		left: 700px;
+	}
+	.me{
+		
+		>a{
+			>img{
+				opacity:0;
+				width: 80px;
+				height: 80px;
+				border-radius: 50%;
+				position: absolute;
+				top: 220px;
+				left: 700px;
+			}
+		}
+
+	}
+	#briefintroduce{
+		display: none;
+		position: absolute;
+		top: 130px;
+		left: 666px;
+		>li{
+			color:@font-focus;
+			font-size: 40px;
+			font-family: '微软雅黑';
+			margin-top: 25px;
+			>i{
+				font-size: 20px;
+				line-height: 56px;
+
+			}
+		}
+	}
+
+}
+
+// page2 end
+// page3 star
+.page3{
+	padding-top: 70px;
+	background-color: @backColor4;
+	#container{
+		background-color: @backColor4;
+	}
+}
+// page3 end
+// page4 star
+.page4{
+	background-color:@backColor3;
+	padding-top: 40px;
+	.container{
+		>h2{
+			text-align: center;
+			color: @font-focus;
+			margin-bottom: 80px;
+		}
+		>ul{
+
+			>li{
+				display: block;
+				width: 320px;
+				background-color:#2c2c2c;
+				list-style: none;
+				float: left;
+				margin: 20px 20px 0 0;
+				color:@font-focus;
+				text-align: center;
+				padding-top: 20px;
+				padding-bottom: 20px;
+
+				>h3{
+					font-weight: 400;
+					font-size: 19px;
+				}
+				
+
+				&:hover{
+					cursor:pointer;
+				}
+				
+				.pg4-inner{
+					width: 100%;
+					height:100px;
+					display: none;
+				}
+				&:focus{
+					>h3{
+					font-weight: 800;
+					font-size: 21px;
+					}
+					background-color: @backColor2;
+					.pg4-inner{
+						display: block;
+
+					}
+				}
+				&:active{
+					background-color:@backColor2;
+					.pg4-inner{
+						display: block;
+
+					}
+				}
+			}
+		}
+	}
+	
+	
+}
+// page4 end
+// page5 star
+.page5{
+	background-color: @backColor4;
+	position: relative;
+
+}
+// page5 end
+// page6 star
+.page6{
+	background-color:@backColor3;
+	padding-top: 40px;
+	position: relative;
+	
+	.container{
+		.row{
+			>div{
+				height: 300px;
+				background-color: #fff;
+				border:1px solid @backColor4;
+			}
+		}
+		.pg6-link{
+			background-color: @backColor2;
+			width: 60px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			margin-top: 20px;
+			&:hover{
+				background-color: #fff;
+				>a{
+					color:#2e2e2e;
+				}
+			}
+			>a{
+				color: #fff;
+				text-decoration: none;
+
+			}	
+		}
+		.content-4{
+			position: relative;
+			
+		}
+		.pos-r{
+			position: absolute;
+			bottom: 0;
+			left: 300px;
+
+		}
+	}
+}
+// page6 end
+// page7 star
+
+.page7{
+	background-color: @backColor4;
+	position: relative;
+	
+	.foot{
+		// width: 1200px;
+		// height: 500px;
+		// background-color: red;
+		margin: auto;
+		.left{
+			// width: 500px;
+			// height: 500px;
+			float: left;
+			// background-color: pink;
+			font-size: 24px;
+			padding-left: 20px;
+			>div{
+				margin-top: 45px;
+				>svg{
+					font-size: 40px;
+					color:@backColor2;
+				}
+				
+			}
+			.padding-l{
+				color:@font-focus;
+				padding-left: 20px;
+				position: relative;
+				
+				>span{
+					position: absolute;
+					left: 100px;
+					i,em{
+						display: block;
+						font-size: 14px;
+					}
+				}
+			}
+			.f-title{
+				font-size: 20px;
+				color:@backColor2;
+				position: relative;
+				
+				>span{
+					width: 63px;
+					height: 2px;
+					display: block;
+					background-color:@backColor2;
+					position: absolute;
+					bottom: 2px;
+					left: 4px;
+
+				}
+			}
+		}
+		.right{
+			
+			// width: 500px;
+			// height: 500px;
+			float: right;
+			// background-color: yellow;
+			padding-left: 20px;
+			position: relative;
+			.f-name{
+				top: 111px;
+				left: 55px;
+				position: absolute;
+				color:#777;
+				opacity: 0.5;
+			}
+			.f-email{
+				top: 180px;
+				left: 55px;
+				position: absolute;
+				opacity: 0.5;
+				color:#777;
+			}
+			.f-text{
+				top: 290px;
+				left: 55px;
+				position: absolute;
+				opacity: 0.5;
+				color:#777;
+			}
+			form{
+				padding-left: 20px;
+				
+			}
+			input{
+				background-color: #363636;
+				margin-top: 35px;
+				border:0px;
+				color:@font-focus;
+				&:focus{
+					.f-name,.f-email,.f-text{
+						opacity: 0;
+						
+					}
+				}
+				&:hover{
+					.f-name,.f-email,.f-text{
+						opacity: 0;
+						
+					}
+				}
+				&:nth-child(1){
+					width: 444px;
+					height: 34px;
+
+				}
+				&:nth-child(2){
+					width: 444px;
+					height: 34px;
+				}
+				&:nth-child(3){
+					width: 444px;
+					height: 116px;
+				}
+				&:nth-child(4){
+					width: 120px;
+					height:35px;
+					background-color: @backColor2;
+				}
+				display: block;
+			}
+			.f-title{
+				font-size: 20px;
+				color:@backColor2;
+				position: relative;
+				margin-top: 40px;
+				>span{
+					width: 66px;
+					height: 2px;
+					display: block;
+					background-color:@backColor2;
+					position: absolute;
+					bottom: 2px;
+					left: 8px;
+
+				}
+			}
+			
+		}
+
+	}
+	.bottom{
+			width: 1200px;
+			height: 100px;
+			position: absolute;
+			bottom: 0;
+			border-top: 1px solid #363636;
+			// background-color: blue;
+			text-align: center;
+			line-height: 100px;
+		}
+}
+// page7 end
